@@ -1,13 +1,17 @@
 import React from 'react'
 import Header from'./Header'
 import './App.css'
-
+import Sidebar from './Sidebar'
+import RecommendedVideos from './RecommendedVideos'
 function App() {
   return (
-    <div className="App">
+    <div className="app">
      <Header/>
-     {/*videoarea*/} 
-    </div>
+     <div className="app_page">
+      <Sidebar/>
+      <RecommendedVideos/>
+     </div>
+     </div>
   )
 }
 
